@@ -1,0 +1,4 @@
+900
+SimpleGoal: Finish CSE 210 assignment,Complete my Eternal Quest project,200,True
+EternalGoal:Read Scriptures,Read my scriptures every day,50
+ChecklistGoal:Exercise,Exercise three times this week,50,500,3,3
