@@ -63,10 +63,13 @@ public class GoalManager
         Console.WriteLine("Thanks for using Eternal Quest!");
     }
 
-    public void DisplayPlayerInfo()
-    {
-        Console.WriteLine($"You have {_score} points.");
-    }
+   public void DisplayPlayerInfo()
+{
+    int level = (_score / 500) + 1;
+
+    Console.WriteLine($"You have {_score} points.");
+    Console.WriteLine($"Level: {level}");
+}
 
     public void ListGoalNames()
     {
